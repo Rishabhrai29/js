@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geometry Shapes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Explore Geometry Shapes</h1>
+  </header>
+  <main class="shapes-container">
+    <div class="card">
+      <h2>Cube</h2>
+      <p>A cube has 6 equal square faces, 12 edges, and 8 vertices.</p>
+    </div>
+    <div class="card">
+      <h2>Cuboid</h2>
+      <p>A cuboid has 6 rectangular faces, 12 edges, and 8 vertices.</p>
+    </div>
+    <div class="card">
+      <h2>Triangle</h2>
+      <p>A triangle is a polygon with 3 edges and 3 vertices.</p>
+    </div>
+    <div class="card">
+      <h2>Sphere</h2>
+      <p>A sphere is a perfectly round geometrical object in 3D space.</p>
+    </div>
+    <div class="card">
+      <h2>Cylinder</h2>
+      <p>A cylinder has two parallel circular bases connected by a curved surface.</p>
+    </div>
+    <div class="card">
+      <h2>Cone</h2>
+      <p>A cone has a circular base and a single vertex.</p>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
