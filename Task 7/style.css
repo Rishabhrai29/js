@@ -1,0 +1,77 @@
+
+* {
+    font-family: sans-serif;
+    background-color: linear-gradient(135deg, #333333 0%, #666666 100%); /* Dark-light gradient */
+    align-items: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3b3b3b;  /* Dark gray fallback */
+    background: -webkit-linear-gradient(to right, #4e5b6e, #3b3b3b);  /* Dark-light gradient for old browsers */
+    background: linear-gradient(to right, #4e5b6e, #3b3b3b); /* Modern gradient */
+}
+
+.convert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Darker shadow for contrast */
+    padding: 20px;
+    border: 0px solid;
+    border-radius: 16px;
+    background-image: linear-gradient(120deg, #ffffff4f 0%, #bcbcbc4f 100%); /* Lightened background with dark touch */
+    transition: 0.5s;
+}
+
+.convert:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.35); /* Stronger shadow on hover */
+}
+
+.btn {
+    width: auto;
+    background: rgb(30, 30, 30);  /* Dark button background */
+    background-image: linear-gradient(to right, #2c2c2c 0%, #333333 100%);
+    padding: 10px;
+    border-radius: 8px;
+    border: 0px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #ffffff00 0%, #ffffff00 100%);
+}
+
+input, option, select {
+    margin: 10px;
+    background: none;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0.3px solid #ddd; /* Light border for input elements */
+    color: #fff;
+    background-color: #444; /* Dark input background */
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.3); /* Darkened paragraph background */
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px;
+    color: #fff;  /* White text for visibility */
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
